@@ -30,10 +30,12 @@ public class Product {
 	}
   
 	public List<String> getProductList(){
-		List<String> productList= new ArrayList<>();
+		List<String> productList= new LinkedList<String>();
 		productList.add("Apple Macbook pro");
 		productList.add("Apple Macbook Air");
 		productList.add("iphone pro 12");
+		productList.add("iphone pro 13");
+		productList.add("iphone pro 14");
 		return productList;
 	}
 }
